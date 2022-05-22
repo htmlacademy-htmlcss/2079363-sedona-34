@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Седона</title>
   </head>
-  <body>
 
-  <header class="page-header">
+  <body>
+   <header class="page-header">
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -38,13 +38,13 @@
     Вход
     </span>
   </li>
-  
-      </ul>
-      </nav>
-    </header>
+    </ul>
+  </nav>
+  </header>
+  </body>
  <main class="main-index">
    <h1 class="visually-hidden">Седона</h1>
-   <img class="logo" src="№" alt="Логотип Седона">
+   <img class="logo" src="#" alt="Логотип Седона">
    <section class="features">
      <h2 class="features-header">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
      <p class="features-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -117,8 +117,8 @@
   
   <div class="map-wrapper">
     <button class="form-search btn" type="button">Поиск гостиницы в Седоне</button>
-    <form class="form-search form-search-show"> action="https://echo.htmlacademy.ru"
-method="GET">
+    <form class="form-search form-search-show"> action="https://echo.htmlacademy.ru/"
+method="post">
 <div class="form-search-row">
   <label class="form-search-label" for="date-arrival">Дата заезда</label>
   <input class="form-search-text" id="data-arrival" name="date-arrival" type="text" placeholder="27 апреля 2020" >
@@ -148,37 +148,43 @@ method="GET">
       <span class="visually-hidden">увеличить количество детей</span>
     </button>  
 </div>
-</div>
+<section class="newsletter">
+  <h2 class="title">Только полезная информация и никакого спама, честное бойскаутское</h2>
+  <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+    <label for="newletter-email">Ваш e-mail</label>
+    <input class="field" placeholder="#" type="email" required>
+    <button class="button newletter-button" type="submit">
+      <span class="visually-hidden">Подписаться</span>
+    </button>
+  </form>
+</section>
 </main>
 
-<form id="newsletter-signup" action="action=signup" method="post">
-  <fieldset>
-  <label for="signup-email">Только полезная информация и никакого спама, честное бойскаутское!</label>
-  <input type="text" name="signup-email" id="signup-email" />
-  <input type="submit" id="signup-button" value="Подписаться" />
-  <p id="signup-response"></p>
-  </fieldset>
-
 <footer class="page-footer">
-    <ul class="page-footer social-list">
-    <li class="page-footer social-item">
-      <a class="page-footer social-link page-footer social-link--wk" href="#">
-        <span class="visually-hidden">Седона в контакте</span></a>
-    </li>
-    <li class="page-footer social-item">
-      <a class="page-footer social-link page-footer social-link--tg" href="#">
-        <span class="visually-hidden">Седона в телеграме</span></a>
-    </li>
-    <li class="page-footer social-item">
-      <a class="page-footer social-link page-footer social-link--youtube" href="#">
-        <span class="visually-hidden">Седона на ютубе</span></a>
-    </li>
-  </ul>
-  <p class="page-footer copyright">Website by
-    <a class="page-footer copylink" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
-    </a>
-  </p>
+  <section class="footer-social">
+    <h2 class="visually-hidden">Давайте дружить</h2>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">ВК</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">Телеграм</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">Ютуб</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="footer-contacts">
+    <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://echo.htmlacademy.ru/">.html academy</a></p>
+  </section>
 </footer>
-    
-    </body>
+</body>
 </html>
