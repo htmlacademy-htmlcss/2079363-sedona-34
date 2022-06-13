@@ -40,66 +40,66 @@
         </div>
       </nav>
     </header>
-    <main class="catalog-content">
-      <section class="catalog-header">
-        <img class="catalog-header-info" src="images/searchotels.jpg" width="1200" height="393"
-          alt="Фон поиска гостиниц">
-        <h1 class="catalog-header-title">Гостиницы Седоны<h1>
-            <ul class="breadcrumbs">
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="index.html">Главная</a>
-              </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Гостиницы</a>
-              </li>
-            </ul>
-            <div class="flex-catalog-filter-wpapper">
-              <div class="container-left">
-                <h2 class="visually-hidden">Фильтры каталога</h2>
-                <fieldset class="catalog-filter group">
-                  <legend class="catalog-filter title">Инфраструктура:</legend>
-                  <ul class="catalog-filter-list">
-                    <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="checkbox" name="Бассейн">Бассейн</label>
-                    </li>
-                    <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="checkbox" name="Парковка">Парковка</label>
-                    </li>
-                    <li class="catalog-filter-item">
-                      <label class="control">
-                        <input class="control-input" type="checkbox" name="wi-fi">wi-fi</label>
-                    </li>
-                  </ul>
-                </fieldset>
-              </div>
+    <main class="main-inner main-container">
+      <div class="page-container">
+        <section class="catalog-header">
+          <img class="catalog-header-info" src="images/searchotels.jpg" width="1200" height="426"
+            alt="Фон поиска гостиниц">
+          <h1 class="inner-catalog-title">Гостиницы Седоны<h1>
+              <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                  <a class="breadcrumbs-link" href="index.html">Главная</a>
+                </li>
+                <li class="breadcrumbs-item">
+                  <a class="breadcrumbs-link">Гостиницы</a>
+                </li>
+              </ul>
+              <h2 class="visually-hidden">Фильтры каталога</h2>
+              <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter group">
-                <legend class="catalog-filter title">Тип жилья</legend>
+                <legend class="catalog-filter title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Гостиница">Гостиница</label>
+                      <input class="control-input" type="checkbox" name="Бассейн">Бассейн</label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Мотель">Мотель</label>
+                      <input class="control-input" type="checkbox" name="Парковка">Парковка</label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Апартаменты">Апартаменты</label>
+                      <input class="control-input" type="checkbox" name="wi-fi">wi-fi</label>
                   </li>
                 </ul>
               </fieldset>
-              <div class="flex-price-wrapper">
-                <fieldset class="filter-group filter-group-price">
-                  <legend class="filter-title">Стоимость</legend>
-                  <label class="filter-group-label">
-                  <label class="min-price">от <input type="number" name="min-price" value="0"></label>
-                  <label class="max-price">до <input type="number" name="max-price" value="9000"></label>
-              </div>
-              </form>
-            </div>
+      </div>
+      <fieldset class="catalog-filter group">
+        <legend class="catalog-filter title">Тип жилья</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Гостиница">Гостиница</label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Мотель">Мотель</label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Апартаменты">Апартаменты</label>
+          </li>
+        </ul>
+      </fieldset>
+      <div class="flex-price-wrapper">
+        <fieldset class="filter-group filter-group-price">
+          <legend class="filter-title">Стоимость</legend>
+          <label class="filter-group-label">
+            <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="number" name="max-price" value="9000"></label>
+      </div>
+      </form>
+      </div>
       </section>
       <section class="catalog-products">
         <div class="products-haider">
@@ -211,6 +211,7 @@
           </form>
         </div>
       </section>
+      </div>
     </main>
 
     <footer class="page-footer">
