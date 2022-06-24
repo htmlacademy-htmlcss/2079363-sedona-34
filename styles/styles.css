@@ -296,57 +296,6 @@ body {
   padding: 182px 85px 81px;
   box-sizing: border-box;
 }
-/*
-.advantages-subitem-housing {
-  background: url("../images/Icon-home.svg") no-repeat 50% 80px;
- }
-
-.advantages-subitem-food {
-  background: url("../images/Icon-food.svg") no-repeat 50% 80px;
-}
-
-.advantages-subitem-souvenir {
-  background: url("../images/Icon-souvenir.svg") no-repeat 50% 80px;
-}
-
-
-/*
-.advantages-item-house {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  height: 384px;
-  width: 400px;
-  margin: 0;
-  background: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-food {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  height: 384px;
-  width: 400px;
-  margin: 0;
-  background: #FFFFFF;
-}
-
-.advantages-item-souvenirs {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  height: 384px;
-  width: 400px;
-  margin: 0;
-  background: #FFFFFF;
-  background: rgba(131, 179, 211, 0.12);
-}*/
 
 .advantages-title,
 .advantages-subtitle {
@@ -753,15 +702,15 @@ body {
   }
 
   .hotel-group-button:first-child {
-    background: url("../images/icons/icon-table.svg") no-repeat 50% 50%;
+    background: url("../images/icon-table.svg") no-repeat 50% 50%;
   }
 
   .hotel-group-button:nth-child(2) {
-    background: url("../images/icons/icon-slideshow.svg") no-repeat 50% 50%;
+    background: url("../images/icon-slideshow.svg") no-repeat 50% 50%;
   }
 
   .hotel-group-button:last-child {
-    background: url("../images/icons/icon-list.svg") no-repeat 50% 50%;
+    background: url("../images/icon-list.svg") no-repeat 50% 50%;
   }
 
   .hotel-group-button:nth-child(3n) {
